@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const App = (props) => {
   return (
-    <div>
+    <div className="w-full">
       <Header />
       <Outlet />
       {/* <Footer /> */}
