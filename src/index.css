@@ -62,6 +62,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* Ẩn scrollbar trên IE/Edge */
+  scrollbar-width: none;
+  /* Ẩn scrollbar trên Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Ẩn scrollbar trên Chrome/Safari */
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
