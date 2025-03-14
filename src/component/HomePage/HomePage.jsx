@@ -161,9 +161,9 @@ const HomePage = () => {
                             src="https://player.vimeo.com/video/916024376?autoplay=1&controls=0&loop=1&autopause=0&playsinline=1&muted=1"
                             width="1000"
                             height="540"
-                            frameborder="0"
+                            frameBorder="0"
                             allow="autoplay; fullscreen; picture-in-picture"
-                            allowfullscreen>
+                            allowFullScreen>
                         </iframe>
                     </div>
                     <div className="flex justify-center items-center py-16">
@@ -304,9 +304,9 @@ const HomePage = () => {
                     </p>
                     eco-system
                 </div>
-                <p class="text-2xl text-gray-900 text-center mt-10">
+                <p className="text-2xl text-gray-900 text-center mt-10">
                     Tối ưu hoạt động với hệ sinh thái Zota: thông minh, đầy đủ, ổn định cho tiệm
-                    <span class="text-pink-500 font-medium block">
+                    <span className="text-pink-500 font-medium block">
                         NAIL SALON - HAIR SALON - BEAUTY SPA <a>của người Việt.</a>
                     </span> .
                 </p>
@@ -351,10 +351,10 @@ const HomePage = () => {
                         height="394"
                         src="https://www.youtube.com/embed/930-ohw-qnc?controls=0&modestbranding=1&showinfo=0&rel=0&autoplay=1&mute=1"
                         title="[ZOMO App Tutorials] Giới Thiệu Các Tính Năng Cơ Bản Trên ZOMO"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="autoplay; encrypted-media"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen>
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen>
                     </iframe>
                 </div>
             </div>

@@ -6,8 +6,11 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import CallIcon from '@mui/icons-material/Call';
 import logo from '../../assets/Image/logoHomePage.png';
 import { IconButton } from '@mui/material';
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
+
+    const location = useLocation();
 
     return (
         <div className=' bg-white shadow-md  '>
